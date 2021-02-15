@@ -1,0 +1,986 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
+
+/*font-family: 'Allerta Stencil', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Berkshire+Swash&display=swap');
+@font-face {
+    font-family: 'Commande';
+    src: url('../font/CommanderEdge.ttf');
+}
+
+@font-face {
+    font-family: 'coburn';
+    src: url('../font/Coburn.otf');
+}
+
+@font-face {
+    font-family: 'kaana';
+    src: url('../font/Kanisah.ttf');
+}
+
+@font-face {
+    font-family: 'Copperplate Gothic';
+    src: url('../font/Copperplate Gothic Bold Regular.ttf');
+}
+
+@font-face {
+    font-family: 'CopperplateGothicBold';
+    src: url('../font/CopperplateGothicBold.ttf');
+}
+
+@font-face {
+    font-family: 'gatefont1';
+    /*a name to be used later*/
+    src: url('../font/ABHINAYA/');
+    /*URL to font*/
+}
+
+.reg {
+    font-size: 7rem;
+    color: #b36714;
+    font-family: 'Commande';
+}
+
+.gate_subheading {
+    font-family: 'coburn';
+}
+
+.gate_mainsec {
+    width: 100%;
+    /*height:100vh;*/
+    background: #000;
+    color: white;
+}
+
+.gate_heading {
+    font-size: 6.2rem;
+    font-weight: 800;
+    /* color: #cc6600; */
+    text-align: center;
+    padding: 15px 0;
+    font-family: Commander Edge;
+    background: linear-gradient(to top, #b3a392f5 0%, #c65b00e6 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 0px;
+}
+
+small.sub {
+    font-size: 20px!important;
+    margin: 0px 30px;
+    font-family: coburn;
+    letter-spacing: 2px;
+}
+
+small.subwork {
+    margin: 0px 0px;
+    font-size: 19px;
+}
+
+.gate_subheading {
+    color: red;
+    text-align: center;
+}
+
+.gate_bigheadstart {
+    font-size: 3.0rem!important;
+    /* font-family: 'Allerta Stencil', sans-serif; */
+    letter-spacing: 5px;
+}
+
+.viiddeocon {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 71%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 15px #2b81b9;
+    border-radius: 50%;
+    display: flex;
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.earthvideo {
+    width: 201px;
+    height: 201px;
+    /* border-radius: 50%; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    /* box-shadow: 0 0 15px #2b81b9; */
+}
+
+.gatehead4.gatecommonhead.honji {
+    position: relative;
+}
+
+.trumpi {
+    position: relative;
+    right: 8px;
+    bottom: 21px;
+}
+
+._1Q-28QiIbiMcgz_OiDW2hh {
+    cursor: unset!important;
+}
+
+.firegatesec {
+    display: flex;
+    position: relative;
+    width: 70%;
+    margin-left: -100px;
+    height: 239px;
+    margin-top: 280px;
+}
+
+.doorshape {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+
+/*door css*/
+
+.backDoor {
+    background-color: skyblue;
+    position: relative;
+    width: 100px;
+    height: 151px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.door {
+    background-color: black;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 151px;
+    transform-origin: right;
+    transition: all 0.9s ease-in-out;
+    cursor: pointer;
+}
+
+.doorOpen {
+    /*prespectiv creates the door open effect*/
+    transform: perspective(500px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-40deg);
+}
+
+.gatedoor {
+    position: absolute;
+    bottom: 00;
+    left: 56%;
+    transform: translateX(-50%);
+}
+
+.gateray {
+    display: flex;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    opacity: 0;
+    transition: 2s;
+}
+
+.gaterayshow {
+    opacity: 0.7;
+    width: 90px;
+    height: 90px;
+    transition: 2s;
+    left: -15%;
+    top: 25px;
+}
+
+.shaar {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.get_isral {
+    color: rgb(91, 15, 239);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.get_remnt {
+    color: rgb(91, 15, 239);
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 16px;
+}
+
+h2.get_mission {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: initial;
+    margin-top: 16px;
+}
+
+img.ert {
+    height: 200px;
+    position: absolute;
+    right: 0;
+    left: 170px;
+    top: 345px;
+}
+
+p.res_cont {
+    font-size: 16pt;
+    margin: 10px 0px;
+    padding: 5px;
+    font-family: initial;
+    letter-spacing: 1px;
+}
+
+span.high {
+    color: rgb(91, 15, 239);
+}
+
+hr.hrline {
+    border: 1px solid #b8b1b1;
+}
+
+.hiddenaudio {
+    position: absolute;
+    left: 0;
+    width: auto;
+    height: auto;
+    z-index: -10;
+    opacity: 0;
+}
+
+span.rect {
+    font-size: 3.0rem;
+    font-weight: 400;
+    font-family: coburn;
+    letter-spacing: 5px;
+}
+
+.gatehead1 {
+    text-align: center;
+    font-size: 1.9rem;
+    margin: 17px 0 25px;
+    color: #d43048;
+    font-weight: 600;
+    font-family: coburn;
+}
+
+.gatehead2 {
+    font-size: 3.3rem;
+    text-align: center;
+    margin: 19px 0 22px;
+    font-family: ' kaana';
+    text-shadow: 0 0 0.5em #dec300, 0 0 0.5em #92904f, 0 0 0.5em #afa742;
+    color: #ffd802;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+}
+
+.gatehead3 {
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: #5da4da;
+    margin: 22px 0 22px;
+    font-family: coburn;
+}
+
+.gatehead4 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #5da4da;
+    margin: 25px 0;
+    font-family: coburn;
+}
+
+.gatehead2 {
+    font-family: 'kaana';
+}
+
+.doorshape img {
+    width: 100%;
+}
+
+.firegatesec img {
+    width: 100%;
+}
+
+.gatehead5 {
+    text-align: center;
+    font-size: 2.9rem;
+    color: #deab4d;
+    font-weight: 500;
+    font-family: Coburn;
+}
+
+.lastgatetext {
+    text-align: center;
+    margin-left: 40px;
+    position: relative;
+}
+
+.gatehead6 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #efd9b1;
+    /* font-family: Coburn; */
+}
+
+.gatehead7 {
+    font-size: 6rem;
+    font-weight: 600;
+    color: red;
+    font-family: coburn;
+}
+
+.almighty {
+    text-shadow: 2 7px 16px #d69012!important;
+    font-size: 2.9rem!important;
+    font-family: Copperplate Gothic!important;
+    text-shadow: 0 0 0.5em #c4b443, 0 0 0.5em #92904f, 0 0 0.5em #afa742;
+    color: #eddd85;
+}
+
+.midcoll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+}
+
+.gatecommonhead {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.itstime {
+    letter-spacing: 8px;
+    color: #f20808;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffd802;
+    font-size: 38px;
+}
+
+span.remant1 {
+    color: #7a4503c7;
+    /* font-weight: 300; */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #7e2605;
+    font-family: Coburn;
+    font-size: 3.1rem;
+    letter-spacing: 2px;
+}
+
+span.romi {
+    color: #7a4503c7;
+    font-weight: 600;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #7e2605;
+    font-family: Coburn;
+    font-size: 6rem;
+    position: relative;
+}
+
+small.remant1 {
+    color: #7a4503c7;
+    font-weight: 600;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #7e2605;
+    font-family: Coburn;
+    margin-right: 15px;
+}
+
+.reg {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.entersite {
+    text-align: center;
+    font-size: 1.2rem;
+    position: absolute;
+    z-index: 99;
+    left: 9%;
+    transform: translatex(-50%);
+    font-weight: 600;
+    bottom: 7%;
+    color: lightblue;
+}
+
+.trumpii {
+    position: absolute;
+    width: 86%;
+    left: 35%;
+    top: 12%;
+}
+
+.firegatesec {
+    display: flex;
+    position: relative;
+    width: 50%;
+    margin-left: -100px;
+    height: 239px;
+    margin-top: 120px;
+}
+
+@media(max-width:1920px) {
+    .trumpi {
+        position: relative;
+        left: 28px;
+        bottom: 21px;
+        width: 70%;
+        right: unset;
+    }
+    .firegatesec {
+        display: flex;
+        position: relative;
+        width: 50%;
+        margin-left: -100px;
+        height: 239px;
+        margin-top: 133px;
+    }
+    .doorshape {
+        display: flex;
+        position: absolute;
+        width: 101%;
+        height: 101%;
+    }
+    .trumpii {
+        position: absolute;
+        width: 86%;
+        left: 35%;
+        top: 13%;
+    }
+    .entersite {
+        text-align: center;
+        font-size: 1.2rem;
+        position: absolute;
+        z-index: 99;
+        left: 9%;
+        transform: translatex(-50%);
+        font-weight: 600;
+        bottom: 5%;
+        color: lightblue;
+    }
+    .gate_bigheadstart {
+        font-size: 4rem!important;
+    }
+}
+
+@media(max-width:1660px) {
+    .firegatesec {
+        display: flex;
+        position: relative;
+        width: 68%;
+        margin-left: -100px;
+        height: 239px;
+        margin-top: 129px;
+    }
+    .entersite {
+        bottom: 53%;
+    }
+    .viiddeocon {
+        left: 86%;
+        top: 34%;
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media(max-width:1440px) {
+    .viiddeocon {
+        left: 78%;
+        top: 63%;
+        width: 160px;
+        height: 160px;
+    }
+    .gatehead2 {
+        font-size: 2.3rem;
+    }
+    .gatehead3 {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    span.romi {
+        font-size: 4rem;
+    }
+    .gatehead7 {
+        font-size: 3rem;
+    }
+    .entersite {
+        bottom: 13%;
+        left: 14%;
+    }
+    .gate_bigheadstart {
+        font-size: 2rem!important;
+    }
+    .firegatesec {
+        display: flex;
+        position: relative;
+        width: 68%;
+        margin-left: -93px;
+        height: 239px;
+        margin-top: 62px;
+    }
+    span.remant1 {
+        font-size: 2.1rem;
+    }
+    span.rect {
+        font-size: 2rem;
+    }
+    .reg {
+        font-size: 6rem;
+    }
+}
+
+@media(max-width:1100px) {
+    .firegatesec {
+        display: flex;
+        position: relative;
+        width: 97%;
+        margin-left: -9px;
+        height: 239px;
+        margin-top: 3px;
+    }
+    .entersite {
+        bottom: 27%;
+        left: 49%;
+    }
+    .viiddeocon {
+        left: 53%;
+        top: 48%;
+        width: 160px;
+        height: 160px;
+    }
+    .trumpii {
+        position: absolute;
+        width: 95%;
+        left: 8%;
+        top: 2%;
+    }
+}
+
+@media(max-width:1024px) {
+    .viiddeocon {
+        left: 69%;
+        top: 62%;
+        width: 125px;
+        height: 125px;
+    }
+    .trumpii {
+        position: absolute;
+        width: 95%;
+        left: 22%;
+        top: 11%;
+    }
+    .firegatesec {
+        display: flex;
+        position: relative;
+        width: 87%;
+        margin-left: -48px;
+        height: 235px;
+        margin-top: 16px;
+    }
+    .entersite {
+        bottom: 5%;
+        left: 29%;
+    }
+    span.itstime {
+        font-size: 23px;
+    }
+    .gatehead2 {
+        font-size: 1.7rem;
+    }
+    span.remant1 {
+        font-size: 1.2rem;
+    }
+    span.romi {
+        font-size: 3rem;
+    }
+    .reg {
+        width: 100%;
+        display: flex;
+        margin: 6px auto;
+        justify-content: center;
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gate_heading {
+        font-size: 3.5rem;
+    }
+    span.itstime {
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    .gatehead1 {
+        font-weight: unset!important;
+    }
+    span.rect {
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+    }
+    small.sub {
+        margin: 0px 15px!important;
+        letter-spacing: 1px;
+    }
+    .gatehead3 {
+        font-size: 28px;
+    }
+    .entersite {
+        font-size: 1.5rem;
+        margin-bottom: 28px;
+        margin-left: 16px;
+        left: 53%;
+        transform: translateX(-50%);
+    }
+    span.romi {
+        font-size: 4rem;
+    }
+    .firegatesec {
+        display: flex;
+        position: relative;
+        min-height: 256px!important;
+        width: 220px;
+        height: 41% !important;
+        /* margin-left: unset !important; */
+        margin-top: 74px;
+        margin-left: -44px;
+    }
+    .almighty {
+        font-size: 1.9rem!important;
+    }
+    span.remant1 {
+        font-size: 1.7rem;
+        letter-spacing: 2px;
+    }
+    small.itstime.subwork {
+        font-size: 14px;
+    }
+    .gatehead7 {
+        font-size: 2rem;
+    }
+    .gatehead2 {
+        font-size: 32px;
+        z-index: 999;
+    }
+    .gate_bigheadstart {
+        font-size: 1.7rem!important;
+    }
+    .viiddeocon {
+        left: 76%;
+        top: 54%;
+        width: 110px;
+        height: 110px;
+    }
+    .trumpii {
+        position: absolute;
+        width: 100%;
+        left: 25%;
+        top: 13%;
+    }
+    .firegatesec {
+        display: flex;
+        position: relative;
+        min-height: 232px!important;
+        width: 186px;
+        height: 41% !important;
+        margin-left: unset !important;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .reg {
+        font-size: 4rem;
+    }
+}
+
+@media(max-width:767px) {
+    .bckplanetimgsec {
+        min-height: 216px;
+    }
+    .viiddeocon {
+        left: 50%;
+    }
+    .trumpii {
+        left: 0%;
+        top: 0%;
+    }
+    .firegatesec {
+        display: flex;
+        position: relative;
+        min-height: 252px!important;
+        width: 32% !important;
+        height: 62% !important;
+        margin: 0 auto 15px!important;
+    }
+    .entersite {
+        font-size: 1.5rem;
+        margin-left: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -17%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    img.ert {
+        height: 100px;
+        position: absolute;
+        right: 0;
+        left: 157px;
+        top: 443px;
+        width: 100px;
+    }
+    .reg {
+        font-size: 2rem;
+    }
+    .gate_heading {
+        font-size: 24px;
+    }
+    span.itstime {
+        font-size: 14px;
+    }
+    .gatehead1 {
+        font-weight: unset!important;
+        margin-top: 20px;
+    }
+    span.rect {
+        font-size: 14px!important;
+        letter-spacing: 0px;
+    }
+    small.sub {
+        margin: 0px 0px!important;
+        letter-spacing: 0px;
+        font-size: 11px!important;
+    }
+    .gatehead3 {
+        font-size: 2rem;
+    }
+    span.romi {
+        font-size: 4rem;
+        margin-bottom: -62px;
+    }
+    .almighty {
+        font-size: 1.9rem!important;
+    }
+    span.remant1 {
+        font-size: 1.7rem;
+        letter-spacing: 2px;
+    }
+    small.itstime.subwork {
+        font-size: 14px;
+    }
+    .gatehead7 {
+        font-size: 2rem;
+    }
+    .entersite {
+        bottom: 65px;
+        font-size: 1.4rem;
+        left: 50%;
+        margin-bottom: -107px;
+    }
+    .gatehead6 {
+        margin-top: 43px;
+    }
+    .gatehead2 {
+        font-size: 1.7rem;
+    }
+    .lastgatetext {
+        text-align: center;
+        margin-left: 0;
+        position: relative;
+    }
+    .gate_bigheadstart {
+        font-size: 14px!important;
+        letter-spacing: 0px;
+    }
+    .firegatesec {
+        display: flex;
+        position: relative;
+        min-height: 252px!important;
+        width: 57% !important;
+        height: 62% !important;
+        margin: 0 auto !important;
+    }
+    .viiddeocon {
+        left: 52%;
+        top: 65%;
+        width: 125px;
+        height: 125px;
+    }
+    .bckplanetimgsec {
+        MIN-HEIGHT: 256PX;
+    }
+    .trumpii {
+        position: absolute;
+        width: 100%;
+        left: 1%;
+        top: 4%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    img.ert {
+        height: 100px;
+        position: absolute;
+        right: 0;
+        left: 137px;
+        top: 443px;
+        width: 100px;
+    }
+    .gate_heading {
+        font-size: 24px;
+    }
+    span.itstime {
+        font-size: 14px;
+    }
+    .gatehead1 {
+        font-weight: unset!important;
+    }
+    span.rect {
+        font-size: 12px!important;
+        letter-spacing: 0px;
+    }
+    small.sub {
+        margin: 0px 0px!important;
+        letter-spacing: 0px;
+        font-size: 14px!important;
+    }
+    .gatehead3 {
+        font-size: 2rem;
+    }
+    .entersite {
+        bottom: 63px;
+        font-size: 1.2rem;
+        margin-left: 17px;
+    }
+    span.romi {
+        font-size: 4rem;
+    }
+    .almighty {
+        font-size: 1.9rem!important;
+    }
+    span.remant1 {
+        font-size: 1.7rem;
+        letter-spacing: 2px;
+    }
+    small.itstime.subwork {
+        font-size: 14px;
+    }
+    .gatehead7 {
+        font-size: 2rem;
+    }
+    .gatehead2 {
+        font-size: 1.7rem;
+    }
+    .gate_bigheadstart {
+        font-size: 16px!important;
+        letter-spacing: 0px;
+    }
+    .firegatesec {
+        display: flex;
+        position: relative;
+        min-height: 253px!important;
+        width: 67% !important;
+        height: 62% !important;
+        margin-left: 50px !important;
+        margin-top: 45px;
+    }
+    .gatehead6 {
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    img.ert {
+        height: 100px;
+        position: absolute;
+        right: 0;
+        left: 110px;
+        top: 443px;
+        width: 100px;
+    }
+    .firegatesec {
+        display: flex;
+        position: relative;
+        min-height: 255px!important;
+        width: 83% !important;
+        height: 62% !important;
+        margin-left: 19px !important;
+        margin-top: 45px;
+    }
+    .gate_heading {
+        font-size: 24px;
+    }
+    .gatehead6 {
+        margin-top: 20px;
+    }
+    span.itstime {
+        font-size: 14px;
+    }
+    .gatehead1 {
+        font-weight: unset!important;
+    }
+    span.rect {
+        font-size: 12px!important;
+        letter-spacing: 0px;
+    }
+    small.sub {
+        margin: 0px 0px!important;
+        letter-spacing: 0px;
+        font-size: 14px!important;
+    }
+    .gatehead3 {
+        font-size: 2rem;
+    }
+    .entersite {
+        bottom: 62px;
+        font-size: 1.2rem;
+        margin-left: 17px;
+    }
+    span.romi {
+        font-size: 4rem;
+    }
+    .almighty {
+        font-size: 1.9rem!important;
+    }
+    span.remant1 {
+        font-size: 1.7rem;
+        letter-spacing: 2px;
+    }
+    small.itstime.subwork {
+        font-size: 14px;
+    }
+    .gatehead7 {
+        font-size: 2rem;
+    }
+    .gatehead2 {
+        font-size: 1.6rem;
+        margin-top: 1px!important;
+    }
+    .gate_bigheadstart {
+        font-size: 12px!important;
+        letter-spacing: 1px;
+    }
+}

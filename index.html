@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shaar-Israel</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+        <script src="http://api.html5media.info/1.1.5/html5media.min.js"></script>
+        <meta charset="UTF-8">
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="css/mdb.min.css" rel="stylesheet">
+        <!-- Your custom styles (optional) -->
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            body {
+                background: black;
+            }
+            .container {
+                width: 100%;
+                max-width: 1300px;
+                margin: 0 auto;
+                /* border: 1px solid green; */
+            }
+            .heading {
+                color: blue;
+                text-align: center;
+                font-weight: bold;
+                font-size: 45px;
+                margin: 20px 0 10px 0;
+            }
+            .sub-heading {
+                color: blue;
+                text-align: center;
+                font-weight: bold;
+                font-size: 32px;
+                margin: 10px 0 0 0;
+            }
+            .firegate-container {
+                display: block;
+                width: 350px;
+                margin-left: 10px;
+                position: relative;
+                left: 50px;
+            }
+            section {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                height: 1000px;
+                /* border: 5px solid gray; */
+            }
+            section span {
+                display: block;
+                color: yellow;
+                text-align: center;
+                margin-top: 100px;
+                margin-left: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="heading">SHAAR ISRAEL – שאר ישוב Sh'ar Yashuv</h1>
+            <h2 class="sub-heading">"A remnant of Israel, a remnant shall return." (Isaiah 10:20-21)</h2>
+            <h2 class="sub-heading">Join the Internet community whose time has come, centered on</h2>
+            
+            <section>
+                <span>
+                    The identity of the Ten Tribes of Israel in "the latter days"<br/>
+                    (Gen. 49; Deut. 33; Isa. 11, 49 & 59; Jer 31)<br/>
+                    Return to the eternal Covenant and Torah of Israel<br/>
+                    (Deut 29:14,29; 30:11-20, Hos.14; Mal 3:6-4:6)<br/>
+                </span>
+                <div class="firegate-container">
+                    <div class="firegatesec">
+                        <img class="img-fluid" src="img/fire.gif">
+                        <div class="doorshape">
+                            <img class="img-fluid" src="img/gatebck.png">
+                        </div>
+                        <div class="gatedoor">
+                            <div class="backDoor" id="gatewaytoheaven">
+                              <div class="gateray"><img class="img-fluid" src="img/lighty.png"></div>
+                        <div class="door">  
+                        </div>
+                        </div>
+                        </div>
+            
+                          <!--<div class="hiddenaudio">-->
+                            
+            
+                          <!--    <audio  class="gateaudioclass">-->
+                              
+                          <!--      <source src="sound/triaudio.mp3" type="audio/mpeg" >-->
+                           
+                          <!--    </audio>-->
+            
+                          <!--</div>-->
+            
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        
+        
+
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+
+<script>
+/*    $(document).ready(function() {
+        $("#footer-container").load(function(){            
+            $(this).removeAttr("a");
+        });
+    });*/
+</script>
+
+  <script type="text/javascript">
+    
+
+    $(document).ready(function(){
+
+        $('.door').click(function(){
+  $('.door').toggleClass('doorOpen');
+
+  $('.gateray').toggleClass('gaterayshow')
+});
+
+
+    })
+
+
+  </script>
+
+
+
+  <!--<script type="text/javascript">
+    
+
+      $(document).ready(function() {
+    var audioElement = document.getElementById('gateaudio');
+   
+    audioElement.addEventListener('ended', function() {
+        this.play();
+    }, false);
+    
+   
+   
+    $('#gatewaytoheaven').click(function() {
+        audioElement.play();
+        $("#status").text("Status: Playing");
+    });
+    
+   
+});
+
+
+  </script>-->
+
+<script>
+	$('.door').click(function(){
+		// $('.ss').css("display","block");
+	var timer = setTimeout(function() {
+		window.location='welcome.html'
+	}, 5000);
+	});
+</script>
+    
+    
+    
+ <script type="text/javascript">
+ /* $(document).ready(function() {
+
+
+ $(".gate_mainsec").mouseenter(function(){
+        my_audio.play();
+        },
+    function(){
+        my_audio.load();
+    });
+});
+*/
+
+
+
+
+
+/*
+$(document).ready(function(){
+  $(".gate_mainsec").mouseenter(function(){
+    my_audio.play();
+  });
+ 
+});
+
+*/
+
+</script>
+
+
+<!-- <script type="text/javascript">
+$(document).ready(function(){
+    $(".gate_mainsec").hover(function(){
+        my_audio.play();
+        },
+    function(){
+        my_audio.load();
+    });
+});
+</script> -->
+    </body>
+</html>
